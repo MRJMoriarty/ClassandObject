@@ -20,7 +20,7 @@ class Bank(var name:String){
 * 则需要使用内部类，用关键字inner
 * */
 
-class Animal(kind:String) {
+class Animal {
     var kind: String? = null
 
     inner class Dog() {
@@ -43,7 +43,7 @@ class Animal(kind:String) {
 }
 
 fun main() {
-    var animal = Animal("null")
+    val animal = Animal()
     animal.Dog().showinformation()
     animal.Cat().showinformation()
 }

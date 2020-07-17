@@ -18,7 +18,7 @@ class didtouch: onclickListener {
 }//需要写一个类来实现接口
 
 fun main() {
-    var event = didtouch()//实例化类的对象
+    val event = didtouch()//实例化类的对象
     didTouch(event)//用实例化的对象来调用以接口对象为参数的函数
 //    didtouch().also {
 //        didTouch(it)
